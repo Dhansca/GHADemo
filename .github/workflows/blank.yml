@@ -1,0 +1,9 @@
+name: firstaction
+on: workflow_dispatch
+jobs:
+  runlinux:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print
+        run: echo "hello"
+    
