@@ -38,7 +38,7 @@ resource "aws_instance" "GHA" {
 
   ami                    = "ami-0596d807260f25fc1"
   instance_type          = "t2.micro"
-)
+}
 
 resource "aws_security_group" "web-sg" {
   name = "${random_pet.sg.id}-sg"
